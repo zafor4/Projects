@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 88px;
+    /* background-color: rgb(240, 197, 197); */
+    color: black;
+    display: flex;
+
+}
+.navlogo{
+    height:80px;
+    width: 100px;
+}
+.logo{
+    background-image: url("images/logos/pizza_khaba!.png");
+    background-size: cover;
+    height: 85px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border :hover{
+    border: 1.5px solid rgb(15, 15, 15);
+}
+.home{
+    height:20px;
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid transparent;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: darkorange;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home:hover{
+    border: 1.5px solid black;
+}
+.hero{
+    background-image: url("images/bg/bg-1.jpg");
+    background-size:cover;
+    height: 500px;
+    
+}
+#btn{
+    border: 2px solid transparent;
+}
+#btn:hover{
+    border: 1.5px solid white;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menulist{
+    
+}
+.div1{
+    background-image: url("images/img/category1.png");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
